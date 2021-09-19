@@ -2,7 +2,7 @@
 
 #Run Project
 
-###local
+### local
 
 ```
 cd onsta-firebase
