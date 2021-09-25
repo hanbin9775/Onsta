@@ -6,7 +6,7 @@
 
 ```
 cd onsta-firebase
-
+npm install
 npm run start
 ```
 
