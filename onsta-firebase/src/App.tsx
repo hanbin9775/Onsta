@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { StrictMode } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { RecoilRoot } from 'recoil';
+import Router from 'Router';
+import { ThemeProvider } from 'styled-components';
+import theme from 'styles/theme';
 
-function App() {
+const Root = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RecoilRoot>
+      <ThemeProvider theme={theme}>
+        <BrowserRouter>
+          <StrictMode>
+            <Router />
+          </StrictMode>
+        </BrowserRouter>
+      </ThemeProvider>
+    </RecoilRoot>
   );
-}
+};
 
-export default App;
+export default Root;
