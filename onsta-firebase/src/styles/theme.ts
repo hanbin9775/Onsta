@@ -3,6 +3,7 @@ import './font.css';
 const calcRem = (size: any) => `${size}rem`;
 
 export const color = {
+  blue: 'rgb(102, 134, 236)',
   brown: '#1D1400',
   yellow: '#FFD25F',
   blackScale: {
