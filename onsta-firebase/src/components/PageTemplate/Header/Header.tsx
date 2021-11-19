@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled, { ThemeContext } from 'styled-components';
-import { color, typography } from 'styles/theme';
+import { typography } from 'styles/theme';
 import LogoImg from 'assets/img/logo.png';
 import Button from 'components/Common/Button';
 import SearchInput from './SearchInput';
@@ -44,7 +44,8 @@ const HeaderWrapper = styled.nav`
 `;
 
 const HeaderInnerWrapper = styled.div`
-  min-width: 940px;
+  padding: 0 4rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 `;

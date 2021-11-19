@@ -1,8 +1,8 @@
 import React from 'react';
 import PageTemplate from 'components/PageTemplate';
 
-const StorePage = () => {
+const StadiumPage = () => {
   return <PageTemplate>StreamingPage</PageTemplate>;
 };
 
-export default StorePage;
+export default StadiumPage;

@@ -22,13 +22,12 @@ const PageTemplateWrapper = styled.div`
 `;
 
 const PageTemplateInnerWrapper = styled.div`
-  max-width: 1440px;
   margin: auto;
 `;
 
 const PageTemplateChildren = styled.div`
   width: 100%;
-  max-width: 940px;
+  padding: 4rem 8rem;
   margin: 6rem auto 0;
   display: flex;
   justify-content: space-between;
