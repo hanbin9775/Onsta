@@ -27,7 +27,6 @@ const PageTemplateInnerWrapper = styled.div`
 
 const PageTemplateChildren = styled.div`
   width: 100%;
-  padding: 4rem 8rem;
   margin: 6rem auto 0;
   display: flex;
   justify-content: space-between;
