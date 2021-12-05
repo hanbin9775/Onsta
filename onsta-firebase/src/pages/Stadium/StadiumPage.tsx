@@ -25,7 +25,7 @@ const StadiumPage = () => {
       const player = MediaPlayerPackage.create();
       player.attachHTMLVideoElement(document.getElementById('video-player'));
       player.setAutoplay(true);
-      player.load(playBackUrl);
+      player.load(demoUrl);
       player.setVolume(0.5);
     };
 

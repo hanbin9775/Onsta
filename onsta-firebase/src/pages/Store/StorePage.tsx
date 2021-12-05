@@ -1,14 +1,13 @@
 import React from 'react';
-import PageTemplate from 'components/PageTemplate';
+import styled from 'styled-components';
+import StoreImg from 'assets/img/store.png';
 
 const StorePage = () => {
-  return (
-    <PageTemplate>
-      <div>스토어페이지</div>
-      <div style={{ color: 'red' }}>1</div>
-      <iframe src="http://localhost:3000/streaming" title="dd" />
-    </PageTemplate>
-  );
+  return <StorePageImg src={StoreImg} alt="store img" />;
 };
+
+const StorePageImg = styled.img`
+  width: 100vw;
+`;
 
 export default StorePage;
